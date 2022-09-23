@@ -1,5 +1,12 @@
 .lead {
-  width: 984px;
+  max-width: 984px;
   color: #fff;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+@media screen and (max-width: 986px) {
+  .lead{
+    margin: 0;
+  }
 }
