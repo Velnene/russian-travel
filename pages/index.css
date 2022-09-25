@@ -2,6 +2,7 @@
 @import url('../bloks/container/container.css');
 @import url('../fonts/InterWeb/inter.css');
 @import url('../bloks/page/page.css');
+@import url('../bloks/content/content.css');
 /*header*/
 @import url('../bloks/header/header.css');
 @import url('../bloks/header/__logo/header__logo.css');
@@ -26,19 +27,18 @@
 @import url('../bloks/places/places.css');
 /*place*/
 @import url('../bloks/place/place.css');
-@import url('../bloks/place/__header/place__header.css');
 @import url('../bloks/place/__image/place__image.css');
 @import url('../bloks/place/__link/place__link.css');
 @import url('../bloks/place/__paragraph/place__paragraph.css');
 @import url('../bloks/place/__title/place__title.css');
 @import url('../bloks/place/__url-heading/place__url-heading.css');
 @import url('../bloks/place/__webcite/place__webcite.css');
-@import url('../bloks/place/__container/place__container.css');
 @import url('../bloks/place/__text/place__text.css');
 /*cover*/
 @import url('../bloks/cover/cover.css');
 @import url('../bloks/cover/__subtitle/cover__subtitle.css');
 @import url('../bloks/cover/__title/cover__title.css');
+@import url('../bloks/cover/__background/cover__background.css');
 /*footer*/
 @import url('../bloks/footer/footer.css');
 @import url('../bloks/footer/__copyright/footer__copyright.css');

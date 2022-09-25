@@ -1,6 +1,36 @@
-.place{
+.place {
   margin-bottom: 80px;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "place-title place-webcite"
+    "place-image place-paragraph";
+  row-gap: 48px;
+  column-gap: 40px;
+  max-width: 100%;
+  grid-template-columns:  460px 484px;
+  width: 100%;
 }
 .place:last-of-type{
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .place{
+    display: block;
+    max-width: 100%;
+  }
 }
