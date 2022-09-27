@@ -1,9 +1,10 @@
-.place__webcite{
-grid-area: place-webcite;
-display: flex;
-flex-direction: column;
-justify-content: end;
+.place__webcite {
+  grid-area: place-webcite;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
+
 @media screen and (max-width: 768px) {
   .place__webcite {
     margin-bottom: 32px;

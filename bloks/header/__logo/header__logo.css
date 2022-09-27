@@ -3,7 +3,7 @@
   background-size: contain;
   width: 176px;
   height: 52px;
-  object-fit:fill;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 390px) {
