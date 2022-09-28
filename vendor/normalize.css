@@ -24,7 +24,6 @@ html {
 
 body {
   margin: 0;
-  background-color: #2A2C2F;
 }
 
 /**
@@ -84,8 +83,6 @@ pre {
 a {
   background-color: transparent;
 }
-
-
 
 /**
  * 1. Remove the bottom border in Chrome 57-
