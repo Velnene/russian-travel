@@ -4,10 +4,6 @@
   grid-area: place-image;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__image {}
-}
-
 @media screen and (max-width: 767px) {
   .place__image {
     margin-bottom: 32px;

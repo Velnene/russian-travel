@@ -9,7 +9,6 @@
   column-gap: 40px;
   max-width: 100%;
   grid-template-columns: 460px 484px;
-  width: 100%;
 }
 
 .place:last-of-type {
@@ -35,6 +34,5 @@
   .place {
     margin-bottom: 50px;
     display: block;
-    max-width: 100%;
   }
 }
