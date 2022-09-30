@@ -4,10 +4,8 @@
   flex-direction: column;
   justify-content: end;
 }
-
-@media screen and (max-width: 768px) {
-  .place__webcite {
-    margin-bottom: 32px;
+@media screen and (max-width: 767px) {
+  .place__webcite{
     margin-left: 16px;
   }
 }
