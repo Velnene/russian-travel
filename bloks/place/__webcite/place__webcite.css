@@ -4,8 +4,9 @@
   flex-direction: column;
   justify-content: end;
 }
+
 @media screen and (max-width: 767px) {
-  .place__webcite{
-    margin-left: 16px;
+  .place__webcite {
+    margin: 32px 0 32px 16px;
   }
 }
